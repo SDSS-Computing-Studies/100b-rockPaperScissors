@@ -15,6 +15,23 @@ rock
 Output: 0
 """
 
+rock = []
+paper = []
+scissors = []
+x = input("Enter rock, paper, or scissors")
+
+def choice(x):
+ print("rock : 0\npaper : 1\nscissors : 2")
+ if x == "rock":
+   return 0
+ if x == "paper":
+   return 1
+ if x == "scissors":
+   return 2
+
+g = choice(x)
+
+"""
 def playerChoice():
   '''
   No input parameters needed.
@@ -30,3 +47,4 @@ def playerChoice():
 if __name__ == "__main__":
   player = playerChoice()
   print(player)
+"""
